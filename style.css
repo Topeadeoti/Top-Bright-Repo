@@ -22,3 +22,41 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.container{
+    margin:0 auto; 
+    width:100%;
+    max-width: 950px;
+}
+
+header{
+    position:fixed;
+    top : 0;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    min-height: 60px;
+    display: flex;
+
+}
+
+.grid{
+    display:flex;
+}
+
+.botton{
+    font-size:1em;
+    border-radius:1px ;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor:pointer;
+    padding: 0 20px;
+    height:35px;
+    background:transparent;
+    
+
+}
+
+.logo{
+    width:50vw,
+}
